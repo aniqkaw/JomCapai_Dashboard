@@ -43,7 +43,7 @@ from sklearn.ensemble import RandomForestRegressor
 
 # Set initial page configuration
 st.set_page_config(page_title = "JomCapai Dashboard", layout = "wide", initial_sidebar_state = "expanded")
-#st.markdown(""" <style> #MainMenu {visibility: hidden;} footer {visibility: hidden;} </style> """, unsafe_allow_html = True)
+st.markdown(""" <style> #MainMenu {visibility: hidden;} footer {visibility: hidden;} </style> """, unsafe_allow_html = True)
 st.write('<style> div.block-container{padding-top:0rem;} </style>', unsafe_allow_html = True)
 st.write('<style>div.row-widget.stRadio > div{flex-direction:row;}</style>', unsafe_allow_html = True)
 
