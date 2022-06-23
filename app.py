@@ -106,12 +106,12 @@ def image_denied():
     image = Image.open('.image/denied.png')
     st.image(image, use_column_width = True)
 
-#def image_author():
-    #image = Image.open('.image/author.png')
-    #st.image(image, use_column_width = True)
+def image_author():
+    image = Image.open('.image/author.PNG')
+    st.image(image, use_column_width = True)
 
 def image_github():
-    image = Image.open('.image/github.png')
+    image = Image.open('.image/github.PNG')
     st.image(image, use_column_width = True)
 
 
@@ -193,23 +193,23 @@ def number_func(num):
 # Define function for pictogram on star rating sentiments
 def rating_func(rating):
     if rating == 5.00:
-        image = Image.open('.image/rating_500.png')
+        image = Image.open('.image/rating_500.PNG')
     elif rating >= 4.75 and rating < 5.00:
-        image = Image.open('.image/rating_475.png')
+        image = Image.open('.image/rating_475.PNG')
     elif rating >= 4.50 and rating < 4.75:
-        image = Image.open('.image/rating_450.png')
+        image = Image.open('.image/rating_450.PNG')
     elif rating >= 4.25 and rating < 4.50:
-        image = Image.open('.image/rating_425.png')
+        image = Image.open('.image/rating_425.PNG')
     elif rating >= 4.00 and rating < 4.25:
-        image = Image.open('.image/rating_400.png')
+        image = Image.open('.image/rating_400.PNG')
     elif rating >= 3.75 and rating < 4.00:
-        image = Image.open('.image/rating_375.png')
+        image = Image.open('.image/rating_375.PNG')
     elif rating >= 3.50 and rating < 3.75:
-        image = Image.open('.image/rating_350.png')
+        image = Image.open('.image/rating_350.PNG')
     elif rating >= 3.25 and rating < 3.50:
-        image = Image.open('.image/rating_325.png')
+        image = Image.open('.image/rating_325.PNG')
     else:
-        image = Image.open('.image/rating_300.png')
+        image = Image.open('.image/rating_300.PNG')
     return image
     
 
@@ -1035,9 +1035,7 @@ elif choose_dashboard == "About Author":
 
     with col2:
         'Click on this [link](https://www.linkedin.com/in/aniqkaw/) to access his LinkedIn Profile.'
-        #image_author()
-        image = Image.open('.image/author.png')
-        st.image(image, use_column_width = True)
+        image_author()
 
     with col3:
         st.write("")
