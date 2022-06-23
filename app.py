@@ -103,15 +103,15 @@ def load_data_sentiment():
 
 # Define function for image display on "Access Denied" for student/non-student, "About Author", "Github Files"
 def image_denied():
-    image = Image.open(r'.image\denied.png')
+    image = Image.open('.image/denied.png')
     st.image(image, use_column_width = True)
 
 def image_author():
-    image = Image.open(r'.image\author.png')
+    image = Image.open('.image/author.png')
     st.image(image, use_column_width = True)
 
 def image_github():
-    image = Image.open(r'.image\github.png')
+    image = Image.open('.image/github.png')
     st.image(image, use_column_width = True)
 
 
@@ -193,23 +193,23 @@ def number_func(num):
 # Define function for pictogram on star rating sentiments
 def rating_func(rating):
     if rating == 5.00:
-        image = Image.open(r'.image\rating_500.png')
+        image = Image.open('.image/rating_500.png')
     elif rating >= 4.75 and rating < 5.00:
-        image = Image.open(r'.image\rating_475.png')
+        image = Image.open('.image/rating_475.png')
     elif rating >= 4.50 and rating < 4.75:
-        image = Image.open(r'.image\rating_450.png')
+        image = Image.open('.image/rating_450.png')
     elif rating >= 4.25 and rating < 4.50:
-        image = Image.open(r'.image\rating_425.png')
+        image = Image.open('.image/rating_425.png')
     elif rating >= 4.00 and rating < 4.25:
-        image = Image.open(r'.image\rating_400.png')
+        image = Image.open('.image/rating_400.png')
     elif rating >= 3.75 and rating < 4.00:
-        image = Image.open(r'.image\rating_375.png')
+        image = Image.open('.image/rating_375.png')
     elif rating >= 3.50 and rating < 3.75:
-        image = Image.open(r'.image\rating_350.png')
+        image = Image.open('.image/rating_350.png')
     elif rating >= 3.25 and rating < 3.50:
-        image = Image.open(r'.image\rating_325.png')
+        image = Image.open('.image/rating_325.png')
     else:
-        image = Image.open(r'.image\rating_300.png')
+        image = Image.open('.image/rating_300.png')
     return image
     
 
