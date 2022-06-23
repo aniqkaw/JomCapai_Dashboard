@@ -64,7 +64,7 @@ student_main_option = col2.radio("", ('YES', 'NO'))
 
 # Insert JomCapai logo at the sidebar
 with st.sidebar.container():
-    logo = Image.open(r'.image\logo.png')
+    logo = Image.open('./image/logo.png')
     st.image(logo, use_column_width = True)
 
 
