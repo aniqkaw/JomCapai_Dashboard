@@ -106,9 +106,9 @@ def image_denied():
     image = Image.open('.image/denied.png')
     st.image(image, use_column_width = True)
 
-def image_author():
-    image = Image.open('.image/author.png')
-    st.image(image, use_column_width = True)
+#def image_author():
+    #image = Image.open('.image/author.png')
+    #st.image(image, use_column_width = True)
 
 def image_github():
     image = Image.open('.image/github.png')
@@ -1035,7 +1035,9 @@ elif choose_dashboard == "About Author":
 
     with col2:
         'Click on this [link](https://www.linkedin.com/in/aniqkaw/) to access his LinkedIn Profile.'
-        image_author()
+        #image_author()
+        image = Image.open('.image/author.png')
+        st.image(image, use_column_width = True)
 
     with col3:
         st.write("")
