@@ -1,6 +1,7 @@
 ###### ---------------------- MAIN COMPONENT 1: IMPORT LIBRARY ---------------------- ######
 
 # Data Manipulation
+import time
 import numpy as np
 import pandas as pd
 import datetime, warnings, scipy
@@ -661,6 +662,8 @@ if choose_dashboard == "Application":
             # Load data for results from new batch of students
             if upload_file is not None:
                 new_result = pd.read_excel(upload_file)
+                with st.spinner('Predicting...'):
+                    time.sleep(2)
 
                 try:
                     # Deploy RF regression model
