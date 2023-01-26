@@ -1004,7 +1004,7 @@ if choose_dashboard == "Application":
 ##### ------------------ DASHBOARD COMPONENT 2: USER GUIDE ------------------ #####
 elif choose_dashboard == "User Guide":
     st.write("\n")
-    'Click on this [link](https://drive.google.com/file/d/1_hjDKvwrCWLlVgBI2lgn-HZGPvOaE38H/view?usp=sharing) to access the backup User Guide if document fails to display here.'
+    'Click on this [link](https://drive.google.com/file/d/1JYZ6dFDUYONeM6K_Fo08MIqwOXHZ60oQ/view?usp=sharing) to access the backup User Guide if document fails to display here.'
     show_pdf('user_guide.pdf')
 
 
