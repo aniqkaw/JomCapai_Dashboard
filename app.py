@@ -655,7 +655,7 @@ if choose_dashboard == "Application":
             with upload_expander:
                 upload_file = st.file_uploader("", type = ['xlsx'], key = "2")
                 st.write("\n")
-                'NO DATA?? Click on this [link](https://docs.google.com/spreadsheets/d/1Z6bya63MMAE9NpE5qBiL1C6XoW5_uvFW/export?format=xlsx) to download an Excel dummy data for the current batch of students.'
+                'NO DATA?? Click on this [link](https://docs.google.com/spreadsheets/d/1Ji-Ho1cKq8K3ytW4RogNr1FYgt0x78j_/export?format=xlsx) to download an Excel dummy data for the current batch of students.'
 
 
 
